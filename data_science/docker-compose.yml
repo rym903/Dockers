@@ -2,7 +2,7 @@ version: '3'
 # 参考: https://qiita.com/hgaiji/items/edf71435d0565257f980
 services:
   jupyter:
-    image: jupyter/datascience-notebook
+    build: .
     environment:
       JUPYTER_ENABLE_LAB: 1
     ports:
