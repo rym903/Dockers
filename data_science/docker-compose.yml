@@ -1,5 +1,6 @@
 version: '3'
 # 参考: https://qiita.com/hgaiji/items/edf71435d0565257f980
+# 実行: docker-compose up - d
 services:
   jupyter:
     build: .
